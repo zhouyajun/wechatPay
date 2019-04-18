@@ -1,0 +1,21 @@
+{
+  "name": "zyj/wechatPay",
+  "description": "基于官方sdk修改的composer 版本",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "zyj",
+      "email": "617242499@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "zyj\\wechatPay\\": "src/"
+    }
+  }
+}
